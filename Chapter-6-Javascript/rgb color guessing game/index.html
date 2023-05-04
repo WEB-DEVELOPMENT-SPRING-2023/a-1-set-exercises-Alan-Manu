@@ -1,0 +1,34 @@
+<!-- This is an HTML document -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character set to UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Set the compatibility of the web page with the IE browser -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the width and initial scale of the web page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the web page -->
+    <title>GUESS THE COLOR</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Display a heading -->
+    <h1> GUESS THE COLOR !! </h1>
+    <!-- Display an element with an id of colorName -->
+    <p id="colorName">(R , G , B)</p>
+    <!-- Create a div with an id of box, which contains three buttons each with a class of btn and a unique id -->
+    <div id="box">
+        <button class="btn" id="0" onclick="guess()"></button>
+        <button class="btn" id="1" onclick="guess()"></button>
+        <button class="btn" id="2" onclick="guess()"></button>
+    </div>
+    <!-- Create a div with an id of re which contains a button with an id of replay -->
+    <div id="re">
+        <button id="replay" onclick="replay()">Replay</button>
+    </div>
+    <!-- Link the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

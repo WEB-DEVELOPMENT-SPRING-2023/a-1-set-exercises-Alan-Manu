@@ -1,0 +1,40 @@
+<!-- This is an HTML file for an Alan Partridge soundboard. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Linking to an external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Setting character encoding and compatibility with IE -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Setting the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Setting the page title -->
+    <title>Alan Partridge Soundboard</title>
+</head>
+<body>
+    <!-- Page heading -->
+    <h1>Alan Partridge Soundboard</h1>
+<!-- Container for soundboard buttons -->
+<div class="button-container">
+    <!-- Each button is linked to a different sound clip -->
+    <button onclick="playsound('ah-ha.mp3')">AH-HA!</button>
+    <button onclick="playsound('back-of-the-net.mp3')">Back Of The Net</button>
+    <button onclick="playsound('bangoutoforder.mp3')">Bang Out Of Order</button>
+    <button onclick="playsound('dan.mp3')">DAN</button>
+    <button onclick="playsound('emailoftheevening.mp3')">Email Of The Evening</button>
+    <button onclick="playsound('hellopartridge.mp3')">Hello Partridge</button>
+    <button onclick="playsound('ieatascotchegg.mp3')">I Eat A Scotch Egg</button>
+    <button onclick="playsound('imconfused.mp3')">I'm Confused</button>
+</div>
+
+<!-- Audio player -->
+<audio id="sound"></audio>
+
+<!-- Linking to an external JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

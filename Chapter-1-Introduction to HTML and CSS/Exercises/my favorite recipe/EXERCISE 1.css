@@ -1,0 +1,10 @@
+/* targetting the body tag to style the contents inside the body*/
+body{
+    color:black; /* sets the color of the text in body tag to black*/
+
+    background-color: beige;/*sets the background color of body tag to beige*/
+
+    border: 2px solid black;/*sets the size of the border of body tag to 2px and the color of the border to black*/
+    
+    margin: 10px;/*sets the margin of body tag to 10px*/
+}

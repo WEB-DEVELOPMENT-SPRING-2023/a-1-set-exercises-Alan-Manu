@@ -1,0 +1,10 @@
+/* Set height to 100% for html and body elements */
+html,body{
+    height: 100%;
+}
+
+/* Center the content vertically and horizontally */
+body{
+    display: grid;
+    place-content: center;
+}

@@ -1,0 +1,11 @@
+/*targetting div to style the elements inside it*/
+div{
+    display: inline;  /*displays the content horizontally*/ 
+}
+
+/*targetting img tag to style the images*/
+img{
+    height: 200px; /*sets the height of the image to 200px*/
+
+    width: auto;  /*sets the width of the pictures to auto*/
+}

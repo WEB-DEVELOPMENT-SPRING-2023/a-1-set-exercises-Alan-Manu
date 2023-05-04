@@ -1,0 +1,109 @@
+/* Set margin and padding of the body element to 0 */
+body{
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Style the header element*/
+    header{
+    background-color: #17072b; /* Set the background color */
+    color: #FFFFFF; /* Set the text color */
+    text-align: center; /* Center the text */
+    font-size: larger; /* Set the font size */
+    }
+    
+    /* Remove default bullet points from unordered lists */
+    ul{
+    list-style-type: none;
+    }
+    
+    /* Style the list items in class A */
+    .A li{
+    display: inline; /* Display list items horizontally */
+    padding: 20px; /* Add padding to the list items */
+    font-size: x-large; /* Set the font size */
+    }
+    
+    /* Style level one headings */
+    h1{
+    margin: 0; /* Remove margin */
+    text-decoration: underline; /* Add an underline */
+    }
+    
+    /* Style the element with ID 'welcome' */
+    #welcome{
+    display: flex; /* Display the element as a flex container */
+    }
+    
+    /* Set width and height of images */
+    img{
+    width: 100%; /* Set the width to 100% of the parent element */
+    height: 370px; /* Set the height to 370 pixels */
+    }
+    
+    /* Style the aside element */
+    aside{
+    background-color: #172d67; /* Set the background color */
+    color: #FFFFFF; /* Set the text color */
+    padding: 20px; /* Add padding to the element */
+    }
+    
+    /* Style level three headings */
+    h3{
+    text-decoration: underline; /* Add an underline */
+    font-size: x-large; /* Set the font size */
+    }
+    
+    /* Style paragraphs */
+    p{
+    font-size: x-large; /* Set the font size */
+    }
+    
+    /* Style container2 */
+    .container2{
+    width: 70%; /* Set the width */
+    margin: 20px; /* Add margin */
+    }
+    
+    /* Style container3 */
+    .container3{
+    width: 30%; /* Set the width */
+    }
+    
+    /* Style container4 */
+    .container4{
+    display: flex; /* Display the element as a flex container */
+    }
+    
+    /* Style images with class img1 */
+    .img1{
+    width: 170px; /* Set the width */
+    height: 170px; /* Set the height */
+    margin: 20px; /* Add margin */
+    }
+    
+    /* Style level four headings */
+    h4{
+    line-height: 1.5; /* Set the line height */
+    font-size: x-large; /* Set the font size */
+    }
+    
+    /* Style the footer element */
+    footer{
+    text-align: center; /* Center the text */
+    background-color: #8c15e9; /* Set the background color */
+    margin-top: 10px; /* Add margin to the top */
+    color: #FFFFFF; /* Set the text color */
+    }
+    
+    /* Remove margin and padding from paragraphs */
+    p{
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Style level two headings */
+    h2{
+    font-size: xx-large; /* Set the font size */
+    text-decoration: underline; /* Add an underline */
+    }

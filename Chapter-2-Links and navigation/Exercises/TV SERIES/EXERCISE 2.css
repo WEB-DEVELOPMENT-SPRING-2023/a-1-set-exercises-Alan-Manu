@@ -1,0 +1,76 @@
+/* targetting the html tag to style the contents inside it */
+html{
+    scroll-behavior: smooth;/* setting the scroll behaviour of the website to smooth*/
+}
+
+
+/* targetting the body tag to style the contents inside it */
+body{
+    border: 2px solid green; /* setting the border to 2px and giving the the color green*/
+
+    margin: 10%; /* setting the mrgin to 10% */
+
+    margin-bottom: 10%; /* setting the bottom part of the margin to 10% */
+}
+
+/* targetting the h1 tag to style the contents inside it */
+h1{
+    text-align: center; /* setting the alignment of the tex to the center of the heading */
+
+    background-color: green; /* sets the background color of the heading to green*/
+
+    margin: 0; /* setting the margin to 0 which is the default margin size */
+}
+
+/* targetting the nav tag to style the navigation bar */
+nav{
+    text-align: center; /* setting the alignment of the text to the center of the navigation bar*/
+}
+
+/* targetting the a tag to style the contents inside it */
+a{
+    text-decoration: none; /* setting the decoration of the text to nothing */
+
+    font-size: larger; /* setting the size of the font to larger */
+
+    color: black; /* setting the color of the text to black */
+}
+
+/* targetting the a tag to make a hovering button to show that a certain element is being hovered */
+a:hover{
+    background-color: green; /* sets the background color of the hovering button to green */
+
+    padding: 4px; /* sets the padding of the button to 2px */
+}
+
+/* targetting the class A to style the elements inside it */
+.A{
+    list-style-type: none; /* setting the list styling to none*/
+}
+
+/* targetting the class B to styke the elemts inside it */
+.B{
+    display: inline; /* displays the list elements in a straight horizontal line */
+
+    padding: 20px; /* sets the padding to 20px */
+}
+
+/* targetting the id A to create a hovering button and to style the elements inside it */
+#A:hover{
+    background-color: transparent; /* setting the background color of button to transparent */
+}
+
+/* targetting the button tag to style the button */
+button{
+    display: block; /* displays the styling of the button to a block shape */
+
+    margin-right: auto; /* the right side margin is set to auto */
+
+    margin-left: auto; /* the left side margin is set to auto*/
+}
+
+/*targetting th p tag to style the contents inside it*/
+p{
+    font-size: larger; /*increases the font size*/
+} 
+

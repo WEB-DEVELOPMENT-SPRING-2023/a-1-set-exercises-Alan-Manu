@@ -1,0 +1,31 @@
+/* This is the CSS for styling the h1 element */
+h1{
+text-align: center; /* center align the text */
+font-size: 36px; /* set the font size to 36 pixels */
+margin-top: 50px; /* add a margin of 50 pixels from the top */
+}
+
+/* This is the CSS for styling the button container */
+.button-container{
+display: flex; /* use flexbox to display the buttons */
+flex-wrap: wrap; /* wrap the buttons to a new line when there is no more space */
+justify-content: center; /* center the buttons */
+margin-top: 50px; /* add a margin of 50 pixels from the top */
+}
+
+/* This is the CSS for styling the buttons */
+button{
+padding: 10px 20px; /* set the padding for the buttons */
+margin: 10px; /* set the margin for the buttons */
+background-color: aqua; /* set the background color of the buttons to aqua */
+color: #000 ; /* set the text color to black */
+border: none; /* remove the border */
+border-radius: 5px; /* round the corners of the buttons */
+cursor: pointer; /* show the pointer cursor when hovering over the button */
+font-size: 24px; /* set the font size to 24 pixels */
+}
+
+/* This is the CSS for styling the button hover state */
+button:hover{
+background-color: aqua; /* change the background color of the button when hovering to aqua */
+}

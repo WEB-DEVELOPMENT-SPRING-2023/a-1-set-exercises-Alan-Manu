@@ -1,0 +1,22 @@
+<!-- This is an HTML form for a petrol cost calculator -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"> <!-- This is the link to the CSS file -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Cost Calculator</title>
+</head>
+<body>
+    <form onsubmit="return calc()"> <!-- This is a form that calls the JavaScript function 'calc' on submission -->
+    <label for="Cost">Price per Litre</label><br> <!-- This is a label and input field for the cost per litre -->
+    <input type="text" id="Cost" name="Cost" value="1.72"><br><br>
+    <label for="Amount">Litres purchased</label><br> <!-- This is a label and input field for the number of litres purchased -->
+    <input type="text" id="Amount" name="Amount" value="0"><br><br>
+    <p id="total"></p> <!-- This is a paragraph element to display the calculated total cost -->
+    <button type="submit">Calculate</button> <!-- This is a button to submit the form and calculate the total cost -->
+    </form>
+</body>
+<script src="script.js"></script> <!-- This is the link to the JavaScript file -->
+</html>
